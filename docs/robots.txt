@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ambicuity.github.io/Indian-SIM-SMS-Gateway/sitemap.xml
