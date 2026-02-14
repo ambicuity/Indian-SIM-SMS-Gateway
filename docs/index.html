@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian SIM SMS Gateway | High-Availability OTP Bridge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logo.png">
+    <!-- Heroicons for SVGs -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="bg-gradient"></div>
+
+    <nav class="container">
+        <div class="nav-logo">
+            <img src="logo.png" alt="Logo">
+            Indian SIM SMS Gateway
+        </div>
+        <div>
+            <a href="https://github.com/ambicuity/Indian-SIM-SMS-Gateway" class="btn btn-outline">
+                <i data-feather="github"></i> GitHub
+            </a>
+        </div>
+    </nav>
+
+    <header class="hero container">
+        <img src="logo.png" alt="Indian SIM SMS Gateway Logo" class="hero-logo">
+        <h1>Zero-Message-Loss<br>OTP Bridge</h1>
+        <p>Reliable, self-healing SMS forwarding from India to the world.<br>Built for high-stakes banking and authentication.</p>
+        <div class="hero-buttons">
+            <a href="https://github.com/ambicuity/Indian-SIM-SMS-Gateway" class="btn btn-primary">
+                View Documentation <i data-feather="arrow-right"></i>
+            </a>
+            <a href="#features" class="btn btn-outline">Learn More</a>
+        </div>
+    </header>
+
+    <section class="container metrics">
+        <div class="metric-card">
+            <span class="metric-value">495</span>
+            <span class="metric-label">Msg/Sec Throughput</span>
+        </div>
+        <div class="metric-card">
+            <span class="metric-value">0%</span>
+            <span class="metric-label">Error Rate</span>
+        </div>
+        <div class="metric-card">
+            <span class="metric-value">< 1ms</span>
+            <span class="metric-label">P99 Latency</span>
+        </div>
+    </section>
+
+    <section id="features" class="container features">
+        <h2 class="section-title">Built for Reliability</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon"><i data-feather="shield"></i></div>
+                <h3>Dead Letter Office</h3>
+                <p>No message is ever lost. Failed deliveries are captured, encrypted, and stored for manual retry or auditing.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i data-feather="wifi"></i></div>
+                <h3>Self-Healing WiFi</h3>
+                <p>Exponential backoff with jitter prevents thundering herd issues, ensuring robust connectivity even on unstable networks.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i data-feather="lock"></i></div>
+                <h3>Zero-Log Security</h3>
+                <p>OTP content is encrypted in transit and at rest. Sensitive data is never written to disk or console logs.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i data-feather="cpu"></i></div>
+                <h3>Autonomous Ops</h3>
+                <p>CTO-Agent monitors system health and triggers corrective actions via n8n webhooks automatically.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i data-feather="zap"></i></div>
+                <h3>Instant Forwarding</h3>
+                <p>MQTT over TLS 1.3 ensures sub-second delivery from ESP32 edge nodes to your Telegram or Email.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i data-feather="dollar-sign"></i></div>
+                <h3>Cost Efficient</h3>
+                <p>Eliminate international roaming charges. Uses VoWiFi principles to tunnel SMS over the internet for free.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Indian SIM SMS Gateway. Released under MIT License.</p>
+            <p style="margin-top: 1rem; opacity: 0.6; font-size: 0.8rem;">
+                Built with ESP32, Python, FastAPI, and Redis.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>

@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="Logo.png" alt="Indian SIM SMS Gateway Logo" width="200" />
+
 # Indian SIM SMS Gateway
 
 **High-Availability OTP Bridge — SMS to Telegram & Email**
