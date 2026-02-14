@@ -274,17 +274,93 @@ nav .container {
 footer {
     border-top: 1px solid var(--border-color);
     padding: 48px 0;
-    text-align: center;
     color: var(--text-secondary);
     font-size: 0.9rem;
 }
 
+/* Mobile Responsiveness */
 @media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2.5rem;
+
+    /* Nav */
+    nav .container {
+        height: auto;
+        flex-direction: column;
+        padding: 16px;
+        gap: 16px;
     }
 
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        gap: 16px;
+    }
+
+    .nav-links a {
+        margin-left: 0;
+        font-size: 0.85rem;
+    }
+
+    .nav-links span {
+        display: none;
+        /* Hide separator on mobile */
+    }
+
+    /* Hero */
+    .hero {
+        padding: 80px 0 60px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+        padding: 0 10px;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+
+    .btn-group {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Bento Grid */
     .bento-grid {
         grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .card {
+        padding: 24px;
+    }
+
+    .metric-val {
+        font-size: 2rem;
+    }
+
+    /* Features */
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
+        padding: 0 10px;
+    }
+
+    /* Footer */
+    footer .container {
+        flex-direction: column;
+        text-align: center;
+        gap: 24px;
     }
 }
