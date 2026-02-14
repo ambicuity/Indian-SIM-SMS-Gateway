@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Environment
+.env
+*.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Arduino / PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Redis
+dump.rdb
+
+# Test & Coverage
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Logs (Zero-Log Policy)
+*.log
+logs/
+
+# Benchmark outputs
+benchmark_results/
