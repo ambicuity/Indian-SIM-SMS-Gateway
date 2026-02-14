@@ -63,6 +63,11 @@ nav .container {
     border-radius: 6px;
 }
 
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
 .nav-links a {
     color: var(--text-secondary);
     text-decoration: none;
@@ -70,6 +75,10 @@ nav .container {
     font-weight: 500;
     margin-left: 24px;
     transition: color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* Optional: space between icon and text if mixed */
 }
 
 .nav-links a:hover {
