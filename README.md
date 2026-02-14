@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="Logo.png" alt="Indian SIM SMS Gateway Logo" width="200" />
+<img src="docs/logo.png" alt="Indian SIM SMS Gateway Logo" width="200" />
 
 # Indian SIM SMS Gateway
 
